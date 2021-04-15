@@ -1,0 +1,29 @@
+table {
+    table-layout: fixed;
+    width: 70%;
+    border-collapse: collapse;
+    border:black solid;
+    text-align: center;
+    column-span: all;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    
+}
+
+.letras_strong{
+    font-weight:bolder;
+}
+.tablafondo{
+    background-color: #D7D2D1;
+}
+td{
+    border: black solid;
+}
+
+th{
+    background-color: #FB3811;
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;  
+
+}

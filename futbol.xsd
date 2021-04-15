@@ -1,0 +1,20 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="Jugadores_champions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="jugador" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>	
+							<xs:element name="posicion" type="xs:integer"/>
+							<xs:element name="equipos" type="xs:string"/>
+							<xs:element name="Goles" type="xs:integer"/>
+							<xs:element name="Partidos" type="xs:integer"/>
+							<xs:element name="GolesporPartido" type="xs:decimal"/>
+						</xs:sequence>
+						<xs:attribute name="nombre" type="xs:string"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
