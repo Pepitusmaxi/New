@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Jugadores_champions
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  xsi:noNamespaceSchemaLocation="futbol.xsd">
+		<jugador nombre="Erling Braut Håland">
+				<posicion>1</posicion>
+				<equipos>Borussia Dormunt</equipos>
+				<Goles>10</Goles>
+				<Partidos>8</Partidos>
+				<GolesporPartido>1.25</GolesporPartido>
+		</jugador>
+		<jugador nombre="Mbappé">
+				<posicion>2</posicion>
+				<equipos>Paris Saint Germain</equipos>
+				<Goles>8</Goles>
+				<Partidos>9</Partidos>
+				<GolesporPartido>0.89</GolesporPartido>
+		</jugador>
+		<jugador nombre="Rashford">
+				<posicion>3</posicion>
+				<equipos>Manchester United</equipos>
+				<Goles>6</Goles>
+				<Partidos>6</Partidos>
+				<GolesporPartido>1</GolesporPartido>
+		</jugador>
+		<jugador nombre="Giroud">
+				<posicion>4</posicion>
+				<equipos>Chelsea</equipos>
+				<Goles>6</Goles>
+				<Partidos>7</Partidos>
+				<GolesporPartido>0.86</GolesporPartido>
+		</jugador>
+		<jugador nombre="Neymar">
+				<posicion>5</posicion>
+				<equipos>Paris Saint Germain</equipos>
+				<Goles>6</Goles>
+				<Partidos>7</Partidos>
+				<GolesporPartido>0.86</GolesporPartido>
+		</jugador>
+</Jugadores_champions>
